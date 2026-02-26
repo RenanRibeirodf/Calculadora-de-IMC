@@ -4,17 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
 
-    <img src="midia/logo-imc.png" alt="" width="200px">
-    <h1>Calculadora IMC</h1>
+    <div class="facha">
+
+        <div class="im1"><img src="midia/logo-imc.png" alt="" width="200px"></div>
+        <h1>Calculadora IMC</h1>
+
+    </div>
     <p>Vamos ver se você está no seu peso ideal?!^^</p>
 
     <div class="calculador">
 
-        <label for="">nome</label>
-        <input type="text" name="" id="" placeholder="Digite aqui...">
+        <label for="">Nome</label>
+        <input type="text" name="" id="" placeholder="">
 
         <label for="">Altura</label>
         <input type="text" name="" id="" placeholder="">
@@ -22,7 +27,7 @@
         <label for="">Peso</label>
         <input type="text" name="" id="" >
 
-        <input type="button" value="Enviar" onclick="">
+        <input  id="button" value="Enviar" onclick="">
 
     </div>
 
@@ -34,9 +39,9 @@
 
             <h2> O que é IMC ?</h2>
             <p>Índice é usado para determinar peso ideal e gradações que indicam magreza, sobrepeso e obesidade.</p>
-            <img src="midia/tabela, corpo-imc.png" alt="" width="550px"> <br>
+            <img class="im2" src="midia/tabela, corpo-imc.png" alt="" width="550px"> <br>
 
-<p>O Índice de Massa Corporal (IMC) é uma das principais ferramentas, adotada inclusive pela Organização Mundial de Saúde (OMS), para calcular o chamado “peso ideal”. Obtido a partir do peso e da altura do indivíduo, o IMC também aponta níveis de magreza e obesidade, que são usados para nortear o trabalho de profissionais de saúde e de educadores físicos.</p>
+<p id="p1">O Índice de Massa Corporal (IMC) é uma das principais ferramentas, adotada inclusive pela Organização Mundial de Saúde (OMS), para calcular o chamado “peso ideal”. Obtido a partir do peso e da altura do indivíduo, o IMC também aponta níveis de magreza e obesidade, que são usados para nortear o trabalho de profissionais de saúde e de educadores físicos.</p>
 
         </div>
     </section>
@@ -47,27 +52,61 @@
 
             <h2>Como calcular o  IMC </h2>
 
-            <img src="midia/como-calcular-imc.webp" alt="" width="400px">
-            <p>Para obter o IMC, basta dividir o seu peso (em quilos) pela altura (em metros) elevada ao quadrado (altura x altura). De acordo com o indicador, o peso considerado saudável é aquele situado entre 18,5 e 24,9.</p>
+            <img class="im3"  src="midia/como-calcular-imc.webp" alt="" width="400px">
+            <p id="p2">Para obter o IMC, basta dividir o seu peso (em quilos) pela altura (em metros) elevada ao quadrado (altura x altura). De acordo com o indicador, o peso considerado saudável é aquele situado entre 18,5 e 24,9.</p>
 
 
             <h2>Outros marcadores</h2>
 
             <table>
-                <ul>
-                    <li> magreza leve ( entre 17 e 18,4)</li>
-                    <li> magreza moderada (entre 16 e 16,9)</li>
-                    <li>magreza grave (menor que 16)</li>
-                    <li>sobrepeso (índice de 25 a 29,9)</li>
-                    <li> obesidade grau 1 (30 a 34,9)</li>
-                    <li>obesidade severa (35 a 39,9)</li>
-                    <li>obesidade mórbida (acima de 40)</li>
+
+               <tr>
+
+                <th>IMC</th>
+                <th>Classicações</th>
+
+               </tr>
+
+               <tr>
+                <td>magreza leve</td>
+                <td>Entre 17 e 18,4</td>
+               </tr>
+
+               <tr>
+                <td>Magreza Moderada</td>
+                <td>Entre 16 e 16,9</td>
+               </tr>
+
+               <tr>
+                <td>Magreza grave</td>
+                <td>Menor que 16</td>
+               </tr>
+
+               <tr>
+                <td>Sobrepeso</td>
+                <td>De 25 a 29,9</td>
+               </tr>
+
+               <tr>
+                <td>Obesidade 1</td>
+                <td>30 a 34,9</td>
+               </tr>
+
+               <tr>
+                <td>Obesidade Severa</td>
+                <td>35 a 39,9</td>
+               </tr>
+
+               <tr>
+                <td>Obesidade Mórbida</td>
+                <td>Acima de 40</td>
+               </tr>
 
 
-                </ul>
+
             </table>
 
-           <p>Mais informações ,<a href="https://prefeitura.sp.gov.br/web/saude/w/noticias/332991">confira</a></p>
+           <p>Mais informações, <a href="https://prefeitura.sp.gov.br/web/saude/w/noticias/332991" target="_blank">confira</a></p>
         </div>
 
     </section>
