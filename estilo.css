@@ -73,7 +73,7 @@ input{
     
 }
 
-#button{
+#btn{
 
     background-color:#A4CF4A;
     margin-top: 20px;
@@ -81,6 +81,28 @@ input{
     width: 90px;
     
 }
+
+.centralize{
+
+   display: flex;
+   justify-content: center;
+
+}
+
+#mostrar{
+
+    background-color:  #EDF7BE;
+    padding: 6px;
+    border-radius: 7px;
+    margin-top: 12px;
+}
+body{
+
+    transition: 0.5s;
+    
+}
+
+
 
 h2{
 
